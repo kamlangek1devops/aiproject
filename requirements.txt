@@ -1,0 +1,3 @@
+ultralytics
+numpy<2
+pyqt6
