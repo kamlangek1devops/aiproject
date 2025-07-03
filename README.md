@@ -2,7 +2,8 @@
 
 AI Project for Assessment II
 
-## Deploy Model on Local
+### Model Train - Google Colab
+- https://colab.research.google.com/drive/1Qrgnl2S7rT55vAkuqbhibPrEa6Vzolc4#scrollTo=3K8pB1iLxUu8
 
 ### Prerequisite
 
@@ -37,3 +38,4 @@ pip install -r requirements.txt
 
 - Image: `python deploy.py --model my_model.pt --source metal7.jpg`
 - Camera Feed: `python deploy.py --model my_model.pt --source usb0 --resolution 1280x720`
+- GUI: `python MainApp.py --model my_model.pt`
